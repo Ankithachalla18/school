@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+body{
+    background:#ffbc3b ;
+    overflow:hidden;
+}
+.container{
+    max-width: 440px;
+    padding:0 20px;
+    margin:170px auto;
+}
+.wrapper{
+    width:380px;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrapper .title{
+    line-height: 90px;
+    background: darkgoldenrod ;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline:none;
+    border-radius:5px;
+    border:1px solid lightgray;
+    font-size: 16px;
+}
+.wrapper form .row i{
+    position: absolute;
+    width:47px;
+    height:100%;
+    color: #fff;
+    font-size: 18px;
+    background:#ffbc3b;
+    border:1px solid #ffbc3b;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form .pass{
+    margin:-8px 0 20px 0; 
+}
+.wrapper form .pass a{
+    color:#ffbc3b;
+    font-size: 17px;
+    text-decoration: none;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+.wrapper form .button input{
+    padding-left: 0px;
+    background: #ffbc3b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border:1px solid #ffbc3b;
+    cursor: pointer;
+}
+form .button input:hover{
+    background:black ;
+}
+
+.wrapper form .a{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.wrapper form .signup-link a{
+    color:#ffbc3b;
+    text-decoration: none;
+}
+.form .signup-link a:hover{
+    text-decoration: underline;
+}
